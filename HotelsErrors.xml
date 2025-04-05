@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://raw.githubusercontent.com/jrpii/cse445-hotel-schema/refs/heads/main/Hotels.xsd">
+
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E. 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    <Hotel>
+        <Name>Radisson Hotel Phoenix Airport</Name>
+        <Phone>(602) 661-3160</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>427</Number>
+            <Street>N 44th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85008</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.0">
+        <Name>Holiday Inn &amp; Suites Phoenix Airport by IHG</Name>
+        <Phone>+1(480) 543-1700</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>3220</Number>
+            <Street>S 48th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85040</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="3.9">
+        <Name>Hilton Los Angeles Airport</Name>
+        <Phone>310-410-4000</Phone>
+        <Phone>+1-800-HILTONS</Phone>
+        <Phone>888-446-6677</Phone>
+        <Phone>+1-888-4HONORS</Phone>
+        <Address NearestAirport="Los Angeles International">
+            <Number>5711</Number>
+            <Street>W Century Blvd</Street>
+            <City>Los Angeles</City>
+            <State>CA</State>
+            <Zip>90045</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="3.7">
+        <Name>Hollywood Inn Suites Hotel</Name>
+        <Phone>4242669450</Phone>
+        <Address>
+            <Number>1030</Number>
+            <Street>W El Segundo Blvd</Street>
+            <City>Gardena</City>
+            <State>CA</State>
+            <Zip>90247</Zip>
+        </Address>
+    </Hotel>
+    <Hotel>
+        <Name>Clarion Inn &amp; Suites Miami International Airport</Name>
+        <Phone>(305) 921-4268</Phone>
+        <Address NearestAirport="Miami International">
+            <Number>5301</Number>
+            <Street>NW 36th St</Street>
+            <City>Miami Springs</City>
+            <State>FL</State>
+            <Zip>33166</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="3.4">
+        <Name>La Quinta Inn &amp; Suites by Wyndham Miami Airport East</Name>
+        <Phone>(305) 871-1777</Phone>
+        <Address NearestAirport="Miami International">
+            <Number>3501</Number>
+            <Street>NW 42nd Ave</Street>
+            <City>Miami</City>
+            <State>FL</State>
+            <Zip>33142-5647</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="3.9">
+        <Name>Comfort Suites DFW Airport</Name>
+        <Address NearestAirport="Dallas Fort Worth">
+            <Number>4700</Number>
+            <Street>W John Carpenter Fwy</Street>
+            <City>Irving</City>
+            <State>TX</State>
+            <Zip>75063</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="3.4">
+        <Name>Embassy Suites by Hilton Dallas DFW Airport South</Name>
+        <Phone>(972) 790-0093</Phone>
+        <Address NearestAirport="Dallas Fort Worth">
+            <Number>4650</Number>
+            <Street>W Airport Fwy</Street>
+            <City>Irving</City>
+            <State>TX</State>
+            <Zip>75062</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="">
+        <Name>OYO Hotel &amp; Casino</Name>
+        <Name>OYO Hotel</Name>
+        <Phone>702-739-9000</Phone>
+        <Address NearestAirport="Harry Reid">
+            <Number>115</Number>
+            <Street>E Tropicana Ave</Street>
+            <City>Las Vegas</City>
+            <State>NV</State>
+            <Zip>89109</Zip>
+        </Address>
+    </Hotel>
+    <Hotel>
+        <Name>Courtyard By Marriott Las Vegas Stadium Area</Name>
+        <Phone>702 895 7519</Phone>
+        <Address NearestAirport="Harry Reid">
+            <Number>5845</Number>
+            <Street>Dean Martin Dr</Street>
+            <City>Las Vegas</City>
+            <State>NV</State>
+            <Zip>89118</Zip>
+    </Hotel>
+
+</Hotels>
