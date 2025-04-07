@@ -9,22 +9,22 @@
             Hotel Schema for hotel details.
         </xsd:documentation>
     </xsd:annotation>
-    <xsd:element name="Hotels">
+    <xsd:element name="Hotels" minOccurs="1" maxOccurs="1">
         <xsd:complexType>
             <xsd:sequence>
                 <xsd:element name="Hotel" maxOccurs="unbounded">
                     <xsd:complexType>
                         <xsd:sequence>
-                            <xsd:element name="Name" type="xsd:string" maxOccurs="1"/>
-                            <xsd:element name="Phone" type="xsd:string" maxOccurs="unbounded"/>
+                            <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+                            <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
                             <xsd:element name="Address">
                                 <xsd:complexType>
                                     <xsd:sequence>
-                                        <xsd:element name="Number" type="xsd:int" maxOccurs="1"/>
-                                        <xsd:element name="Street" type="xsd:string" maxOccurs="1"/>
-                                        <xsd:element name="City" type="xsd:string" maxOccurs="1"/>
-                                        <xsd:element name="State" type="xsd:string" maxOccurs="1"/>
-                                        <xsd:element name="Zip" type="xsd:string" maxOccurs="1"/>
+                                        <xsd:element name="Number" type="xsd:int" minOccurs="1" maxOccurs="1"/>
+                                        <xsd:element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+                                        <xsd:element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+                                        <xsd:element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+                                        <xsd:element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>
                                     </xsd:sequence>
                                     <xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
                                 </xsd:complexType>
@@ -36,5 +36,4 @@
             </xsd:sequence>
         </xsd:complexType>
     </xsd:element>
-
 </xsd:schema>
