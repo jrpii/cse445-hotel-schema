@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-            xmlns="https://github.com/jrpii/cse445-hotel-schema"
-            targetNamespace="https://github.com/jrpii/cse445-hotel-schema"
+            xmlns="https://jrpii.github.io/cse445-hotel-schema"
+            targetNamespace="https://jrpii.github.io/cse445-hotel-schema"
             elementFormDefault="qualified"
             attributeFormDefault="unqualified">
     <xsd:annotation>
