@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns="https://jrpii.github.io/cse445-hotel-schema"
+<Hotel xmlns="https://jrpii.github.io/cse445-hotel-schema"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="https://jrpii.github.io/cse445-hotel-schema Hotels.xsd">
     <Hotel Rating="4.2">
